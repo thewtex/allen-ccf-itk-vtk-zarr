@@ -1,0 +1,7 @@
+{
+    "dataType": "Uint32Array",
+    "name": "_polys",
+    "numberOfComponents": 1,
+    "size": 7640,
+    "vtkClass": "vtkCellArray"
+}

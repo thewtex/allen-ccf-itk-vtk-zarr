@@ -1,0 +1,6 @@
+{
+    "dataType": "Float32Array",
+    "numberOfComponents": 3,
+    "size": 453,
+    "vtkClass": "vtkPoints"
+}
