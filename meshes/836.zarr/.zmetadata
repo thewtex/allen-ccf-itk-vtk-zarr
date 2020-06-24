@@ -1,0 +1,72 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "vtkClass": "vtkPolyData"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "points/.zattrs": {
+            "dataType": "Float32Array",
+            "numberOfComponents": 3,
+            "size": 2019,
+            "vtkClass": "vtkPoints"
+        },
+        "points/.zgroup": {
+            "zarr_format": 2
+        },
+        "points/values/.zarray": {
+            "chunks": [
+                673,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                673,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "polys/.zattrs": {
+            "dataType": "Uint32Array",
+            "name": "_polys",
+            "numberOfComponents": 1,
+            "size": 5352,
+            "vtkClass": "vtkCellArray"
+        },
+        "polys/.zgroup": {
+            "zarr_format": 2
+        },
+        "polys/values/.zarray": {
+            "chunks": [
+                5352
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<u4",
+            "fill_value": 0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5352
+            ],
+            "zarr_format": 2
+        }
+    },
+    "zarr_consolidated_format": 1
+}
